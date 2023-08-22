@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>NMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="icon" type="image/png" href="https://i.imgur.com/qlkmlMs.gif">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NMS...">
+<meta property="og:description" content="NMS">
+<meta property="og:url" content="https://cliphd.ga/">
+<meta property="og:image" content="https://i.imgur.com/qlkmlMs.gif">
+<meta name="theme-color" content="#191919">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<main>
+<script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.volume = 0.4;
+                    audio.play()
+                }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
+            </script>
+<input type="checkbox" autocomplete="off" id="overlay-toggle">
+<div class="overlay fullscreen">
+<label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+<span class="no-hover" style="font-family: mono; font-size: 0.6em;">left click to enter</span>
+<span class="hover" style="font-family: mono; font-size: 0.6em;">Click To Continue</span>
+</label>
+</div>
+<audio loop preload="auto" id="audio">
+<source src="assets/audio/audio.mp3" type="audio/mp3">
+</audio>
+<video muted="muted" loop playsinline preload="auto" class="fullscreen bg-video" id="video">
+<source src="https://imgur.com/zmacdcu" type="video/mp4">
+</video>
+<section class="fullscreen text-content">
+<h1 style="font-family: derk; text-shadow: 0 0 0.40em #bababa;">NMS</h1>
+-
+<div class="socials">
+<a href="https://t.me/sleeks" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Tongue</a>
+/
+<a href="https://t.me/bllckz" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Blickz</a>
+/
+<a href="https://t.me/remains" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Jord</a>
+/
+<a href="https://t.me/CRlMlNALS" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">C</a>
+/
+<a href="https://t.me/nectorious" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Night</a>
+/
+<a href="https://t.me/tripdemi" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Trip Demi</a>
+/
+<a href="https://t.me/notmaxd" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">MaxD</a>
+/
+<a href="https://t.me/slobo1111" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Slobo</a>
+/
+<a href="https://t.me/pwnipotent" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Pwnipotent</a>
+/
+<a href="https://t.me/reiapse" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Jay</a>
+/
+<a href="https://t.me/sdfasdsfasf" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Cry</a>
+/
+<a href="https://t.me/sodex" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Sodex</a>
+/
+<a href="https://t.me/raritanium" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;" target="_blank">Raritanium</a>
+
+</div>
+</section></main>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="cursor.js"></script>
+</body>
+</html>
