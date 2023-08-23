@@ -9,13 +9,21 @@
     html {
     font-family: mono;
   }
+  * {
+    cursor: url('https://mac-cursors.netlify.app/png/default.png'), auto;
+  }
+  a {
+    cursor: url('https://mac-cursors.netlify.app/png/handopen.png'), pointer;
+  }
+  button {
+      cursor: url('https://mac-cursors.netlify.app/png/handopen.png'), pointer;
+  }
   *, *::after, *::before {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
   }
   body {
-    cursor: url('https://cdn.discordapp.com/attachments/1047940071728353361/1143847565549383752/cursor.png'), auto;
     background: rgb(17, 17, 17);
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */ 
