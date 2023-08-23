@@ -15,6 +15,7 @@
     padding: 0;
   }
   body {
+    cursor: url('https://cdn.discordapp.com/attachments/1047940071728353361/1143847565549383752/cursor.png'), auto;
     background: rgb(17, 17, 17);
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */ 
