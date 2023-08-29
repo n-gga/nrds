@@ -40,11 +40,6 @@
   align-items: center;
   justify-content: center;
   }
-  .groups {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
   .overlay {
     z-index: 1;
     background-color: black;
