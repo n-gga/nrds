@@ -9,15 +9,6 @@
     html {
     font-family: mono;
   }
-  * {
-    cursor: url('https://mac-cursors.netlify.app/png/default.png'), auto;
-  }
-  a {
-    cursor: url('https://mac-cursors.netlify.app/png/handopen.png'), pointer;
-  }
-  button {
-      cursor: url('https://mac-cursors.netlify.app/png/handopen.png'), pointer;
-  }
   *, *::after, *::before {
     box-sizing: inherit;
     margin: 0;
